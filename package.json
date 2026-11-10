@@ -1,0 +1,12 @@
+{
+  "name": "laper-ai-council-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolated Node.js API for Laper AI Fast and Council modes",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}
